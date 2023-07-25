@@ -1,0 +1,21 @@
+name: Webstringer
+type: theme
+description: 'A cuddly theme that offers extra fluffiness.'
+core_version_requirement: ^8 || ^9
+libraries:
+  - webstringer/global-styling
+base theme: classy
+
+regions:
+  info_sns_header: 'Header_top'
+  info_sns_header2: 'Header_top_menu'
+  highlighted: 'Slider_images'
+  sidebar_content: 'Content_paragraphs'
+  sidebar: 'Sidebar'
+  maintest: 'Info_blocks'
+  section: 'Donates'
+  slider_mini: 'slider_mini'
+  menu_footer: 'Menus_footer'
+  little_footer: 'little_menu_footer'
+  logo_footer: 'logo_footer'
+  credits_footer: 'credits_footer'

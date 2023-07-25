@@ -1,0 +1,66 @@
+#block-aboutuscontentpage{
+    color: #373F49;
+    line-height: 156%;
+    float: left;
+    margin: 50px 350px 1280px 0;
+    width: 43%;
+    position: relative;
+
+        p{
+            margin: 1em 0;
+            color: #373F49;
+        }
+
+        a{
+            color: #3DAFFF;
+        }
+
+       h2{
+        color: #373F49;
+        font-size: 30px;
+        line-height: 34px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #CACACB;
+       }
+
+       blockquote {
+            background: #EBEBEB;
+            margin: 16px 0;
+            padding: 10px 16px;
+            font-style: italic;
+        }
+
+        .field-item{
+            background-image: none;
+            li{
+                line-height: 24px;
+                padding-left: 14px;
+                list-style-type: none;
+                background: url(/sites/default/files/2023-05/ul-list-image_0.png) no-repeat left 8px;
+            }
+            
+        }
+}
+
+    .contact-button{
+        a{
+        width: 182px;
+        height: 53px;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 52px;
+        display: block;
+        text-decoration: none;
+        background: url(/sites/default/files/2023-05/content-contact-button.png) no-repeat left top;
+        text-indent: 58px;
+        color: #373F49;
+        text-decoration: none;
+        text-shadow: 1px 1px 2px #fff;         
+        }
+
+    }
+        
+    
+

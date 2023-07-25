@@ -1,0 +1,77 @@
+/*------------------START TESTIMONIALS BLOCK------------------*/
+.testimonial-block{
+    background: url(http://bootstrap.dev.prompt.hu/sites/default/files/2023-05/block-testimonials-bg-top.png) no-repeat center 47px #F6F6F6;
+    border-bottom: none;
+
+.testimonial-block-header{
+    
+    background: url(http://bootstrap.dev.prompt.hu/sites/default/files/2023-05/sidebar-testimonial-quote.png) no-repeat 96% bottom;
+    font-size: 14px;
+    .testimonial-text{
+        background-image: url(http://bootstrap.dev.prompt.hu/sites/default/files/2023-05/sidebar-block-header.jpg);
+        background-color: #fafafa;
+        background-repeat: repeat-x;
+        background-position: left top;
+        margin: 16px 0;
+        border-color: #DEE4E4;
+        border-style: solid;
+        border-width: 0 1px 1px 1px;
+
+        
+        .title-testimonial{
+            margin: 0;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: none;
+            height: 41px;
+            white-space: nowrap;
+            line-height: 41px;
+            color: #373F49;
+            text-indent: 50px;
+            border-bottom: 5px solid #BDBDBF;
+            overflow: hidden;
+            background-image: url(http://bootstrap.dev.prompt.hu/sites/default/files/2023-05/block-testimonial-title-bg.png);
+            background-repeat: no-repeat;
+            background-position:8px 8px;   
+        }
+    }
+
+}
+
+      .field-testimonial{
+        background: url(http://bootstrap.dev.prompt.hu/sites/default/files/2023-05/sidebar-testimonial-lines.png) repeat center top;
+
+        .field-items-testimonials{
+        padding: 0 40px;
+        margin-top: 35px;
+
+            p{
+                padding-bottom: 25px;
+                line-height: 25px;
+                font-style: italic;
+            }
+        }
+
+ }
+        .signature{
+            background-image: url(http://bootstrap.dev.prompt.hu/sites/default/files/2023-05/sidebar-testimonial-bottom-bg.png);
+            background-repeat: no-repeat;
+            background-position: left top;
+            height: 36px;
+            position: absolute;
+            width: 320px;
+            left: 0;
+
+           .testimonial-signature{
+            height: 24px;
+            line-height: 24px;
+            white-space: nowrap;
+            text-indent: 16px;
+            font-size: 12px;
+            width: 78%;
+            overflow: hidden;
+            }  
+        }    
+
+}
+/*------------------END TESTIMONIALS BLOCK---------------------*/

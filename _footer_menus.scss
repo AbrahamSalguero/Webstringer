@@ -1,0 +1,130 @@
+.layout-menus-footer{
+    display: flex;
+    justify-content: center;
+    background: url(/sites/default/files/2023-05/footer-bg.jpg) repeat-x left top #2B2F34;
+    padding-bottom: 25px;
+     .region-menu-footer{
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         margin:50px 200px 0 0;
+
+         h2{
+            color: #A3A7AD;
+            border-bottom: 1px solid #4c5057;
+            padding-bottom: 8px;
+            margin-left: 16px;
+            font-size: 142.85%;
+            font-weight: 600;
+          }
+
+          .menu{
+            padding: 10px 4px;
+          }
+ /*------------------FOOTER MENU SERVICES----------------- */        
+        #block-menu-services{
+          
+            .menu-item{
+                text-align: left;
+                a{
+                    text-decoration: none;
+                    color: #797F89;
+                    font-size: 12px;
+                    height: 20px;
+                    display: inline-block;
+                    background-size: auto 19px;
+
+                      &:hover{
+                        color: white;
+                      }
+                    }   
+            }
+            .item-white{
+              a{
+                color: #CCCCCC;
+                font-weight: 700;
+    
+                &:hover{
+                  color: #fff;
+                }
+              }
+            }                   
+        }
+/*---------------------------END FOOTER MENU SERVICES--------------------*/
+
+
+/*-------------------FOOTER MENU INDUSTRIES------------------------------*/
+        #block-menu-industries{
+          .menu-item{
+
+              a{
+                  text-decoration: none;
+                  color: #797F89;
+                  font-size: 12px;
+                  height: 20px;
+                  display: inline-block;
+                  background-size: auto 19px;
+
+                    &:hover{
+                      color: white;
+                    }
+                  }
+          
+          }
+          .item-white{
+            a{
+              color: #CCCCCC;
+              font-weight: 700;
+  
+              &:hover{
+                color: #fff;
+              }
+            }
+          }
+          
+                 
+      }
+/*-------------------END FOOTER MENU INDUSTRIES-------------------------*/
+
+
+/*----------------FOOTER MENU LANGUAGES---------------------------------*/
+
+      #block-menu-languages{
+        .menu-item{
+            a{
+                text-decoration: none;
+                color: #797F89;
+                font-size: 12px;
+                height: 20px;
+                display: inline-block;
+                background-size: auto 19px;
+
+                  &:hover{
+                    color: white;
+                  }
+                }
+        
+        }
+        .item-white{
+          a{
+            color: #CCCCCC;
+            font-weight: 700;
+
+            &:hover{
+              color: #fff;
+            }
+          }
+        }
+        
+               
+    }
+     }
+}
+/*------------------------END FOOTER MENU LANGUAGES--------------------------*/
+
+
+@media screen and (max-width:700px) {
+  .layout-menus-footer{
+    flex-direction: column;
+  }
+}

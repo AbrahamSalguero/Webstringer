@@ -1,0 +1,79 @@
+
+/*----header-----*/
+@import 'header/header';
+@import 'header/header-top';
+
+/*-----footer------*/
+@import'footer/associate-img-footer';
+@import'footer/credits-footer';
+@import'footer/footer_menus';
+@import'footer/footer-little-menu';
+
+/*---------Index-page----------------*/
+@import'index-page/slider-images';
+@import'index-page/main-text';
+@import'index-page/cards';
+@import'index-page/donate-card';
+@import'index-page/slider-bottom';
+@import'index-page/swiper-slider-mini';
+
+
+/*----------Industries page----------*/
+@import'industries-page/main-image.scss';
+@import'industries-page/main-content.scss';
+@import'industries-page/lateral-sidebar-industries/lateral-menu.scss';
+@import'industries-page/lateral-sidebar-industries/lateral-translation-block';
+@import'industries-page/lateral-sidebar-industries/lateral-testimonials-block';
+@import'industries-page/lateral-sidebar-industries/lateral-request-block';
+@import'industries-page/lateral-sidebar-industries/lateral-contactus';
+
+/*-------------Services page----------*/
+@import'services-page/main-services';
+@import'services-page/main-image';
+@import'services-page/lateral-sidebar-services/lateral-menu-services';
+
+/*------------Languages page-----------*/
+@import'languages-page/main-image-languages';
+@import'languages-page/main-text-languages';
+@import'languages-page/lateral-sidebar-languages/lateral-menu-languages';
+
+/*------------About Us page------------*/
+@import'aboutUs-page/main-aboutUs';
+@import'aboutUs-page/main-image-about';
+@import'aboutUs-page/lateral-sidebar-aboutUs/lateral-menu-aboutUs';
+
+/*----------Contact Us page----------------*/
+@import'contactUs-page/form.scss';
+
+
+*{
+  font-family: 'Open Sans',Arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 100%;
+  height: 100vh;
+  font-family: 'Open Sans',Arial;
+  color: #373F49;
+
+  p{
+  max-width: 75ch;
+}
+
+}
+
+
+
+/*------------this is the styles for the test header-----*/
+.region-test-index{
+  display: flex;
+  color: darkblue;
+  background-color: #373F49;
+}
+
+
+
+

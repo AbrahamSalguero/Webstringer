@@ -1,0 +1,61 @@
+
+.layout-slider-mini{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .item-text{
+    text-align: start;
+  }
+  
+
+  .swiper-mini{
+    border-top: 1px solid black;
+
+    max-width: 100%;
+    margin: 0;
+    //height: 120px;
+    //position: relative;
+
+     .swiper-wrapper-mini{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 30px;
+      //position: relative;
+      overflow: hidden;
+      width: 100%;
+           
+        .swiper-slide-mini{
+          width: 100%;
+          padding: 15px;
+          height: 120px;
+          border: 1px solid red;
+          //position: relative;
+        }
+
+     }
+    /* .swiper-button-next-mini{
+          background-color: blue;
+          position: absolute;
+          height: 22px;
+          width: 22px;
+          bottom: -62px;
+          left: 1460px;
+          top: 1855px;
+        }
+      .swiper-button-prev-mini{
+          background-color: blue;
+          position: absolute;
+          height: 22px;
+          width: 22px;
+          bottom: -1226px;
+          left: 1486px;
+
+        } */
+
+  }
+
+
+}

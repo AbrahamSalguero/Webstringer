@@ -1,0 +1,264 @@
+.layout-blocks{
+     //border: 2px solid black;
+     width: 60%;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+
+      .region-maintest{
+        display: flex;
+        flex: 1 1 100px;
+      
+  /*-----------------TECHNICAL TRANSLATION CARD-----------------------------*/        
+           #block-info-block-technical{
+            //border: 2px solid black;
+            margin: 5px;
+                        .inside-card{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 15px;
+
+                            .top-image{
+                                .book-image{
+                                    position: relative;
+                                    left: -70px;
+                                    top: -20px;
+                               
+                                }
+                            }
+
+                            .card-text-principal{
+                                .card-title{
+                                    color: #006FB5;
+                                    text-decoration: none;
+                                    font-size: 24px;
+                                    white-space:nowrap;
+                                }
+                            }
+
+                            .text{
+                                .card-text{
+                                    padding: 10px  0;
+                                    font-size: 15px;
+                                    text-align: center;
+                                    color: #373F49;
+                                    line-height: 156%;
+                                }
+                            }
+
+                            .button{
+                                .btn{
+                                    display: block;
+                                    background: url(/sites/default/files/2023-05/services-learn-button.png) no-repeat left top;
+                                    text-decoration: none;
+                                    color: #25292F;
+                                    font-weight: 600;
+                                    width: 111px;
+                                    height: 33px;
+                                    line-height: 33px;
+                                    text-align: left;
+                                    text-indent: 10px;
+                                    font-size: 14px;
+                                    margin: 15px auto;
+                                }
+                                }
+                            }
+                    }
+            }
+
+/*-----------FINISH TECHNICAL TRANSATION CARD-----------------------------------*/
+
+
+
+/*------------WEBSITE TRANSLATION CARD-------------------------------*/
+#block-info-block-website{
+    margin: 5px;
+                .inside-card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 15px;
+
+                    .top-image{
+                        .world-image{
+                            position: relative;
+                            left: -70px;
+                            top: -20px;
+                        }
+                    }
+
+                    .card-text-principal{
+                        .card-title{
+                            color: #006FB5;
+                            text-decoration: none;
+                            font-size: 24px;
+                            white-space:nowrap;
+                        }
+                    }
+
+                    .text{
+                        .card-text{
+                            padding: 10px  0;
+                            font-size: 15px;
+                            text-align: center;
+                            color: #373F49;
+                            line-height: 156%;
+                        }
+                    }
+
+                    .button{
+                        .btn{
+                            display: block;
+                            background: url(/sites/default/files/2023-05/services-learn-button.png) no-repeat left top;
+                            text-decoration: none;
+                            color: #25292F;
+                            font-weight: 600;
+                            width: 111px;
+                            height: 33px;
+                            line-height: 33px;
+                            text-align: left;
+                            text-indent: 10px;
+                            font-size: 14px;
+                            margin: 15px auto;
+                        }
+                        }
+                    }
+            }
+        }
+         
+/*------------------------FINISH WEBSITE TRANSLATION CARD----------------------*/
+
+
+
+/*---------------------------MANUAL TRANSLATION CARD-------------------------*/
+#block-info-block-manual{
+    margin: 5px;
+                .inside-card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 15px;
+
+                    .top-image{
+                        .close-book-image{
+                            position: relative;
+                            left: -70px;
+                            top: -20px;
+                        }
+                    }
+
+                    .card-text-principal{
+                        .card-title{
+                            color: #006FB5;
+                            text-decoration: none;
+                            font-size: 24px;
+                            white-space:nowrap;
+                        }
+                    }
+
+                    .text{
+                        .card-text{
+                            padding: 10px  0;
+                            font-size: 15px;
+                            text-align: center;
+                            color: #373F49;
+                            line-height: 156%;
+                        }
+                    }
+
+                    .button{
+                        .btn{
+                            display: block;
+                            background: url(/sites/default/files/2023-05/services-learn-button.png) no-repeat left top;
+                            text-decoration: none;
+                            color: #25292F;
+                            font-weight: 600;
+                            width: 111px;
+                            height: 33px;
+                            line-height: 33px;
+                            text-align: left;
+                            text-indent: 10px;
+                            font-size: 14px;
+                            margin: 15px auto;
+                        }
+                        }
+                    }
+            }
+    
+/*--------------------------FINISH MANUAL TRANSLATION CARD------------------------*/
+
+
+
+
+/*-----------------------DOCUMENT TRANSLATION CARD----------------------*/
+#block-info-block-document{
+    margin: 5px;
+                .inside-card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 15px;
+
+                    .top-image{
+                        .paper-image{
+                            position: relative;
+                            left: -70px;
+                            top: -20px;
+                        }
+                    }
+
+                    .card-text-principal{
+                        .card-title{
+                            color: #006FB5;
+                            text-decoration: none;
+                            font-size: 24px;
+                            white-space:nowrap;
+                        }
+                    }
+
+                    .text{
+                        .card-text{
+                            padding: 10px  0;
+                            font-size: 15px;
+                            text-align: center;
+                            color: #373F49;
+                            line-height: 156%;
+                        }
+                    }
+
+                    .button{
+                        .btn{
+                            display: block;
+                            background: url(/sites/default/files/2023-05/services-learn-button.png) no-repeat left top;
+                            text-decoration: none;
+                            color: #25292F;
+                            font-weight: 600;
+                            width: 111px;
+                            height: 33px;
+                            line-height: 33px;
+                            text-align: left;
+                            text-indent: 10px;
+                            font-size: 14px;
+                            margin: 15px auto;
+                        }
+                        }
+                    }
+            }
+/*-----------------FINISH DOCUMENT TRANSLATION CARD------------------------*/
+               
+         
+  @media screen and (max-width:700px) {
+            .region-maintest{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+   
+
+
+

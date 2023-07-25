@@ -1,0 +1,80 @@
+
+
+/*------------------------START LATERAL MENU-------------------------*/
+
+/*---STYLES FOR H2----*/
+.text-menu-sidebar{
+    margin:0 0 0 15px;
+
+    .title-sidebar{
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: none;
+    height: 41px;
+    white-space: nowrap;
+    line-height: 41px;
+    background: #252930;
+    color: #fff;
+    margin: 0;
+    text-indent: 16px;
+    margin-bottom: 0;
+    border-bottom: 5px solid #BDBDBF;
+    }
+
+}
+/*-----END STYLES H2-----*/
+
+.menu-about{
+    margin:0 0 30px 15px;
+    background: #414B59;
+       .menu-sidebar-about{
+        list-style-type: none;
+
+            li{
+                margin: 5px;
+                background-image: url(http://bootstrap.dev.prompt.hu/sites/default/files/2023-05/sidebar-menu-li-bg.png);
+                background-repeat: no-repeat;
+                background-position: center bottom;
+                color: #fff;
+                opacity: 0.6;
+                display: block;
+                padding: 10px 10px 12px 30px;
+                line-height: 20px;
+                text-decoration: none;
+                font-weight: 700;
+                height: auto;
+
+                &:hover{
+                   background-color:#2F353E;
+                }
+                
+            }
+
+             
+       }
+}
+
+/*----------------------END LATERAL MENU---------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

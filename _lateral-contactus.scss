@@ -1,0 +1,129 @@
+
+#block-lateral-contact-industries{
+    margin: 45px 0 0 0;
+
+    label{
+        font-weight: 400;
+        margin-bottom: 2px;
+        color: #373F49;
+        line-height: 156%;
+    }
+ .block-title-background{
+    background-image: url(/sites/all/themes/translationsabc/images/sidebar-block-header.jpg);
+    background-color: #d9d9d9;
+    background-repeat: repeat-x;
+    background-position: left top;
+    height: 41px;
+    padding-bottom: 6px;
+    transition: 0.4s;
+
+        .title-contact{
+            background: url(http://bootstrap.dev.prompt.hu/sites/default/files/2023-05/block-contact-bg.png) no-repeat 12px center !important;
+            margin: 0;
+            font-weight: 600;
+            font-size: 18px;
+            text-transform: none;
+            height: 41px;
+            white-space: nowrap;
+            line-height: 41px;
+            color: #373F49;
+            text-indent: 50px;
+            border-bottom: 5px solid #BDBDBF;
+            overflow: hidden;
+            }
+
+    
+
+
+      .contact-button-spand{
+        background: url(http://bootstrap.dev.prompt.hu/sites/default/files/2023-05/block-open-close.png) no-repeat left top;
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        width: 26px;
+        height: 26px;
+        text-indent: 9999em;
+        overflow: hidden;
+      }
+}
+
+
+.content-contact{
+    border-color: #DEE4E4;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    background: #fafafa;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-out;
+
+      .webform-contact-left{
+        border: none !important;
+      }
+
+
+      .form-contact-left-name{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 4px;
+        width: 100%;
+      }
+
+      .form-contact-left-email{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 4px;
+        width: 100%;
+      }
+      
+      .form-contact-left-phone{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 4px;
+        width: 100%;
+      }
+
+       .form-text{
+        padding: 10px 4px;
+        width: 100%;
+        border: 1px solid #DCDCDC;
+       }
+
+       .form-textarea{
+        border: 1px solid #DCDCDC;
+       }
+}   
+
+ .webform-contact{
+    border: none;
+ }
+
+ .captcha {
+    width: 100%;
+    float: left;
+    padding: 0px 24px;
+    display: block;
+     
+    .form-item {
+        margin-bottom: 0;
+        margin-top: 6px;
+    }
+     
+
+}
+.form-submit{
+        height: 40px;
+        width: 164px;
+        background: url(http://bootstrap.dev.prompt.hu/sites/default/files/2023-05/quote-submit-button.png) no-repeat left top;
+        font-size: 15px;
+        text-shadow: 1px 1px 2px #FFFFFF;
+        font-family: 'Open Sans',Arial;
+        text-align: center;
+        border: none;
+        color: #373F49;
+        font-weight: 600;
+        font-size: 14px;   
+        margin-left: 70px;  
+     }
+
+}

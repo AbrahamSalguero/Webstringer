@@ -1,0 +1,44 @@
+
+
+    .main-text-desc{
+    max-width: 60%;
+    margin:auto;
+    margin-top: 25px;
+    text-align: justify;
+    border-bottom: none;
+    background-color: white;
+    h2{
+        color: #373F49;
+        font-size: 30px;
+        line-height: 45px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #CACACB;
+    }
+    p{
+        background-color: white !important;
+        color: #373F49;
+        border: none;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: justify;
+        margin: 1em 0;
+        word-wrap: break-word;
+
+         
+           &:last-child{
+            border-top: 3px solid gray;
+           }
+
+    }
+
+
+}
+@media screen and (max-width:700px) {
+    .main-text-desc{
+        max-width: 100%;   
+        margin-top: 40px;
+    }
+}
+
+

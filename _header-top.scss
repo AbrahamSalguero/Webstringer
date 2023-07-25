@@ -1,0 +1,37 @@
+
+.header-top-test{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #F67A03;
+    background: url(/sites/default/files/2023-05/header-top-bg.jpg);
+
+    p{       
+        padding: 5px;
+        margin-right: 350px;
+        white-space: nowrap;
+        color: #C5CBD7;
+        line-height: 21px;
+        font-weight: 600;
+        img{
+            margin: 0 5px 0 0;
+        }
+    } 
+}
+
+/***********************MEDIA QUERIES********************/
+@media screen and (max-width:700px) {
+    .header-top-test{
+        p{       
+            margin-right: 0;
+            white-space: wrap;
+            text-align: center;
+        } 
+    }
+}
+
+

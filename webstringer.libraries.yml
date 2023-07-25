@@ -1,0 +1,13 @@
+global-styling:
+  version: 1.x
+  css:
+    
+    theme:
+      dist/globalstyle.css: {}
+  js:
+    
+    dist/globalstyle.js: {}
+
+   
+    
+

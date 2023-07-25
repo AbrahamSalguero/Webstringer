@@ -1,0 +1,143 @@
+
+   #block-webform{
+    border-top: 1px solid #CACACB;
+
+      .webform-section-title{
+        font-size: 38px;
+        line-height: 38px;
+        color: #383F49;
+        padding-bottom: 16px;
+      }
+   }
+
+   .title-contact-form{
+    margin-left: 390px;
+    font-size: 38px;
+    line-height: 38px;
+    color: #383F49;
+    padding-bottom: 16px;
+    font-weight: 600;
+   }
+
+  .region-sidebar-content{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+   padding: 0 20px;
+
+   input, #edit-message2 {
+    max-width: 100%;
+    padding: 10px 4px;
+    margin-top: 8px;
+    background: #fff;
+    border: 1px solid #DCDCDC;
+    font-size: 15px;
+    color: #25292F;
+    font-family: 'Open Sans',Arial;
+   }
+
+   
+
+   .text-message-contact{
+    margin-top: 44px;
+   }  
+    #block-webform{
+      width: 40%;
+      background-color: #F7F7F7;
+    }
+
+    .webform-section-title{
+      display: none;
+    }
+    .webform-section-wrapper{
+      margin-left: 10px;
+    }
+
+    #edit-message2{
+      width: 90%;
+      padding: 44px;
+    }
+
+    .form-text, .form-email {
+      width: 100%;
+      display: flex;
+    } 
+
+    .field-label-contact{
+      height: 33px;
+      line-height: 33px;
+      font-weight:bolder;
+      color: #4F555D;
+      margin-bottom: 0;
+      font-size: 20px;
+      padding-left: 34px;
+      background: url(/sites/default/files/2023-06/contact-sidebar-icons.png) no-repeat left top;
+    
+    } 
+ 
+    .field-item-contact-p{
+      padding-left: 34px; 
+      margin: 10px 0 18px;
+      line-height: 20px;
+        
+        a{
+          text-decoration: none;
+          color: #3DAFFF;
+        }
+    }
+  }
+   
+
+  #block-contactformadress{
+    border-left: 1px solid #CACACB;
+    border-top: 1px solid #CACACB;
+    color: #4F555D;
+    padding: 51px 18px 26px 20px;
+    min-height: 400px;
+  }
+  
+
+/*------------SUBMIT BUTTON----------*/
+
+ #edit-actions{
+   display:flex;
+   justify-content: center;
+   background: url(/sites/default/files/2023-06/contact-bottom.png) no-repeat left;
+   background-size:  contain;
+   height: 72px;
+   margin-top: 0;
+   padding-right: 8px;
+   #edit-actions-submit{
+    height: 40px;
+    width: 164px;
+    background: url(http://bootstrap.dev.prompt.hu/sites/default/files/2023-05/quote-submit-button.png) no-repeat left top;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #FFFFFF;
+    text-align: center;
+    font-family: 'Open Sans',Arial;
+    font-weight: 600;
+    border: none;
+    color: #373F49;
+   }
+ }
+   
+
+
+
+
+ @media screen and (max-width:700px) {
+  .region-sidebar-content{
+      flex-direction: column;
+      input{
+        width: 100%;
+      }
+      #block-webform{
+        width: 100%
+      }
+    }
+
+    .title-contact-form{
+      margin:25px 0 0 115px;
+     }
+}
+ 

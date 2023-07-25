@@ -1,0 +1,17 @@
+
+#block-santoriniblockimages{
+    width: 1600px;
+    aspect-ratio: auto 1600 / 324;
+    height: 324px;
+    margin: auto;
+    border-bottom: 5px solid #CDD6D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: 
+                url('/sites/default/files/2023-05/santotini.jpg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow:  inset -250px 0px 150px -10px rgba(255, 255, 255, 0.5), 
+                 inset 250px 0px 150px -10px rgba(255, 255, 255, 0.5), 
+}

@@ -1,0 +1,54 @@
+/*---------------------START TRANSLATIONS BLOCK-------------------*/
+
+
+.field-item{
+    background-image: url(http://bootstrap.dev.prompt.hu/sites/default/files/2023-05/sidebar-block-header.jpg);
+    background-color: #fafafa;
+    background-repeat: repeat-x;
+    background-position: left top;
+    margin: 16px 0;
+    border-color: #DEE4E4;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+
+   .field-item-drop{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: none;
+    height: 41px;
+    white-space: nowrap;
+    line-height: 41px;
+    color: #373F49;
+    text-indent: 50px;
+    border-bottom: 5px solid #BDBDBF;
+    overflow: hidden;
+    background-image: url(http://bootstrap.dev.prompt.hu/sites/default/files/2023-05/block-title-bg_0.png);
+    background-repeat: no-repeat;
+    background-position:8px 8px;   
+   }
+   
+   .field-item-even{
+
+    h2{
+        font-size: 22px;
+        font-weight: 500;
+        color: #373F49;
+        line-height: 156%;
+        margin: 0 0 0.5em 0;
+        -webkit-text-size-adjust: 100%;      
+    }
+
+      p{
+        margin: 1em 0;
+        padding-bottom: 25px;
+        line-height: 25px; 
+      }
+   }
+
+    .text-inside-translation{
+        padding: 8px;
+    }
+ }  
+
+/*---------------------END TRANSLATION BLOCK-----------------------*/
